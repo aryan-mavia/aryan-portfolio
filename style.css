@@ -110,7 +110,7 @@ nav{
 }
 
 section{
-    width: 100%;
+    width: 100%;      
     height: 90vh;
 }
 
@@ -123,8 +123,8 @@ section{
 }
 
 .main-container .image{
-    width: 500px;
-    height: 80vh;
+    width: 300px;
+    height: 50vh;
     border-radius: 100%;
     overflow: hidden;
     box-shadow: 0 0 50px #0178ff;
@@ -496,14 +496,28 @@ section{
       float: right;
     
     }
+    .ii{
+      width: 250px;
+      height: 40vh !important;
+      border-radius: 100%;
+      background-image: url(sel.jpeg);
+      background-position: center;
+      background-size: cover;
+      background-position-y: -15px !important;
+      scale: 1;
+      overflow: hidden;
+      box-shadow: 0 0 50px #0178ff;
+      /* margin-top: -60px !important; */
+  }
     .hd{
       margin-top: -0px !important;
       margin-left: 6% !important;
-      position: absolute;
+      /* position: absolute; */
       font-size: 30px !important;
     }
     .text{
       margin-left: -100px !important;
+      padding-right: 150px !important;
    }
    .ri{
      float: left;
